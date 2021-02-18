@@ -11,7 +11,7 @@ app.get("/", function(req, res) {
 
 app.get("/index.html", (req, res) => res.redirect("/"));
 
-app.get("/contact.html", (req, res) => res.sendFile(__dirname + "/icontact.html"));
+app.get("/contact.html", (req, res) => res.sendFile(__dirname + "/contact.html"));
 
 app.get("/about.html", (req, res)=> res.sendFile(__dirname + "/about.html"));
 
